@@ -21,6 +21,7 @@ const Contact = () => {
               type='email'
               className='form-input'
               placeholder='enter email'
+              name='email'
             />
             <div className="field"
             data-netlify-recaptcha='true'>
