@@ -13,17 +13,13 @@ const Contact = () => {
           </p>
           <form 
           className='contact-form' 
-          name="contact" 
+          name="subscribe" 
           method="POST" 
-          netlify
+          data-netlify='true'
           data-netlify-recaptcha='true'
         >
-               <input
-              type='text'
-              className='form-input'
-              placeholder='Your Name'
-              name='name'
-            />
+          <input type="hidden" name="form-name" value="subscribe" />
+
             <input
               type='email'
               className='form-input'
