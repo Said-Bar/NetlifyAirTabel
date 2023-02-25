@@ -16,6 +16,7 @@ const Contact = () => {
           name="contact" 
           method="POST" 
           data-netlify="true"
+          data-netlify-recaptcha='true'
         >
             <input
               type='email'
@@ -23,10 +24,6 @@ const Contact = () => {
               placeholder='enter email'
               name='email'
             />
-            <div className="field"
-            data-netlify-recaptcha='true'>
-
-            </div>
             <button type='submit' className='submit-btn'>
               subscribe
             </button>
