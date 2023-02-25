@@ -15,9 +15,8 @@ const Contact = () => {
           className='contact-form' 
           name="subscribe" 
           method="POST" 
-          data-netlify='true'
-          data-netlify-recaptcha='true'
-        >
+          netlify
+            >
           <input type="hidden" name="form-name" value="subscribe" />
 
             <input
