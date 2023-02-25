@@ -40,7 +40,7 @@ const Wrapper = styled.section`
     display: grid;
     gap: 2.5rem;
     img {
-      height: 225px;
+      height: auto;
     }
   }
   .btn {
