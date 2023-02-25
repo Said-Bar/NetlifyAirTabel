@@ -13,11 +13,10 @@ const Contact = () => {
           </p>
           <form 
           className='contact-form' 
-          name="subscribe" 
-          method="POST" 
-          netlify
+          name="contact" 
+          method="post" 
             >
-          <input type="hidden" name="form-name" value="subscribe" />
+          <input type="hidden" name="form-name" value="contact" />
 
             <input
               type='email'
