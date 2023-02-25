@@ -11,7 +11,12 @@ const Contact = () => {
             sint unde quaerat ratione soluta veniam provident adipisci cumque
             eveniet tempore?
           </p>
-          <form className='contact-form' action='POST' data-netlify="true">
+          <form 
+          className='contact-form' 
+          name="contact" 
+          method="POST" 
+          data-netlify="true"
+        >
             <input
               type='email'
               className='form-input'
