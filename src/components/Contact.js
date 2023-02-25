@@ -15,13 +15,19 @@ const Contact = () => {
           className='contact-form' 
           name="contact" 
           method="POST" 
-          data-netlify="true"
+          netlify
           data-netlify-recaptcha='true'
         >
+               <input
+              type='text'
+              className='form-input'
+              placeholder='Your Name'
+              name='name'
+            />
             <input
               type='email'
               className='form-input'
-              placeholder='enter email'
+              placeholder='Enter Email'
               name='email'
             />
             <button type='submit' className='submit-btn'>
